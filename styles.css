@@ -1,13 +1,13 @@
 h1 {
   color: white;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
-  font-family: Verdana, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .box {
   background: rgb(189, 9, 183);
   background: linear-gradient(
-    0deg,
+    180deg,
     rgba(189, 9, 183, 1) 0%,
     rgba(107, 76, 245, 1) 100%
   );
@@ -22,18 +22,19 @@ h1 {
 form {
   color: white;
   padding: 20px 20px 20px 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #Email {
-  padding: 7px 7px 7px 7px;
+  padding: 7px;
   width: 97%;
 }
 #Contraseña {
-  padding: 7px 7px 7px 7px;
+  padding: 7px;
   width: 97%;
 }
 #Género {
-  padding: 7px 7px 7px 7px;
-  width: 104%;
+  padding: 7px;
+  width: 102%;
 }
 #Ingresar {
   position: relative;
@@ -51,6 +52,6 @@ form {
 }
 @media (min-width: 499px) {
   .box {
-    width: 500px;
+    width: 100%;
   }
 }
