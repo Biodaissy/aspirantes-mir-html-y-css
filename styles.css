@@ -13,15 +13,15 @@ h1 {
   );
   width: 300px;
   height: 350px;
-  padding: 20px 20px 20px 20px;
-  margin: auto 0;
+  padding: 20px;
+  margin: 0 auto;
   border-width: 1px;
   border-radius: 20px;
   box-shadow: 7px 7px 15px #5d5b59;
 }
 form {
   color: white;
-  padding: 20px 20px 20px 20px;
+  padding: 20px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #Email {
@@ -38,20 +38,20 @@ form {
 }
 #Ingresar {
   position: relative;
-  top: 5px;
-  left: 200px;
+  top: -14px;
+  left: 184px;
   padding-top: 5px;
   padding-right: 15px;
   padding-bottom: 5px;
   padding-left: 15px;
 }
-@media (min-width: 500px) {
-  .box {
-    width: 300px;
-  }
-}
 @media (min-width: 499px) {
   .box {
     width: 100%;
+  }
+}
+@media (min-width: 500px) {
+  .box {
+    width: 300px;
   }
 }
