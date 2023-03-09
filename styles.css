@@ -1,3 +1,56 @@
 h1 {
-  color: red;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Verdana, sans-serif;
+}
+.box {
+  background: rgb(189, 9, 183);
+  background: linear-gradient(
+    0deg,
+    rgba(189, 9, 183, 1) 0%,
+    rgba(107, 76, 245, 1) 100%
+  );
+  width: 300px;
+  height: 350px;
+  padding: 20px 20px 20px 20px;
+  margin: auto 0;
+  border-width: 1px;
+  border-radius: 20px;
+  box-shadow: 7px 7px 15px #5d5b59;
+}
+form {
+  color: white;
+  padding: 20px 20px 20px 20px;
+}
+#Email {
+  padding: 7px 7px 7px 7px;
+  width: 97%;
+}
+#Contraseña {
+  padding: 7px 7px 7px 7px;
+  width: 97%;
+}
+#Género {
+  padding: 7px 7px 7px 7px;
+  width: 104%;
+}
+#Ingresar {
+  position: relative;
+  top: 5px;
+  left: 200px;
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+}
+@media (min-width: 500px) {
+  .box {
+    width: 300px;
+  }
+}
+@media (min-width: 499px) {
+  .box {
+    width: 500px;
+  }
 }
